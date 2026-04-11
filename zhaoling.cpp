@@ -5,11 +5,11 @@ int main()
     const int AMOUNT = 100;
     int price = 0;
 
-    printf("Enter the price amount: ");
+    printf("请输入价格: ");
     scanf("%d", &price);
     
     int change = AMOUNT - price;
-    printf("Change to be returned: %d\n", change);
+    printf("找您: %d\n", change);
     return 0;
 }
  

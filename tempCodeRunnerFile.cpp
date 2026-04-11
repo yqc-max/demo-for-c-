@@ -1,11 +1,11 @@
 #include <stdio.h>
-int main() {
-    int a = 5;
-    int b = 10;
-    int c;
-    c=a;
-    a=b;
-    b=c;
-    printf("a=%d,b=%d\n",a,b);
-return 0;
+ int main() {
+    int cm ;
+    scanf("%d", &cm);
+    int d=cm/30.48;
+
+    int foot= d ;
+    int inch= (d - foot) * 12;
+    printf("%d,%d\n", foot, inch);
+    return 0;
 }
