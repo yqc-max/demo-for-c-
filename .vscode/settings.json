@@ -5,6 +5,7 @@
         "**/*.exe": true,
         "**/tempCodeRunnerFile.cpp": true,
         "**/.DS_Store": true,
-        "**/.vscode": false  // 如果你想看配置文件就设为 false
+        "**/.vscode": false,  // 如果你想看配置文件就设为 false
        
+}
 }
