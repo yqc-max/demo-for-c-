@@ -1,20 +1,15 @@
-#include  <stdio.h>
-int main(){
-int a,b;
-printf("请输入两个整数：\n Eg:1 2\n");
-scanf("%d %d",&a,&b);
+#include <stdio.h>
+int main()
+{
+    int score;
+    printf("请输入成绩：");
+    scanf("%d", &score);
+    int apple;
+    apple = score/10;
 
-int max = 0;
-if (a > b) {
-    max = a;
-    printf("较大的数是：%d\n", max);
-} 
-if (b > a) {
-    max = b;
-    printf("较大的数是：%d\n", max);
-}
-if (a == b) {
-        printf("两个数相等：%d\n", a);
+    if (apple > 9){
+        printf("good job");
     }
+ 
     return 0;
 }

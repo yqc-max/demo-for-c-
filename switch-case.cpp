@@ -2,6 +2,7 @@
 int main()
 {
     int type;
+    printf("输入类型编号：");
     scanf("%d", &type); //输入一个case型号  一个数
     switch (type ){
         case 1:
