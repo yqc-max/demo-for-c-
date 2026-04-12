@@ -2,7 +2,7 @@
 int main()
 {
     int type;
-    scanf("%d", &type);
+    scanf("%d", &type); //输入一个case型号  一个数
     switch (type ){
         case 1:
         printf ("你好\n");
@@ -24,4 +24,6 @@ int main()
             break;  
 
     }
-}  
+    return 0;
+    
+}   
