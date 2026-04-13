@@ -1,16 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    int a,b;
-    printf("请输入两个整数：");
-    scanf("%d %d", &a, &b);
+int main() 
+{
+        printf("输入X的值:\n");
 
-    int max=0;
-    if (a>b){
-        max=a;
-    }else{
-        max=b;
-    }
-    printf("较大的数是：%d\n", max);
-    return 0;
-} 
+
+
+
+}

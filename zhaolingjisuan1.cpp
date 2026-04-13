@@ -2,6 +2,7 @@
 int main(){
 int a,b;
 printf("请输入两个整数：\n Eg:1 2\n");
+printf("raady to input:\n");
 scanf("%d %d",&a,&b);
 // 屎山代码
 int max = 0;
