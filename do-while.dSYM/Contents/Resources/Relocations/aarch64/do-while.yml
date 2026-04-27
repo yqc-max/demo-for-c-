@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ray/Code/demo-for-c-/do-while'
+relocations:     []
+...
